@@ -1,0 +1,8 @@
+{
+  "name": "paymentgateway_react_stripe",
+  "version": "1.0.0",
+  "description": "This package.json is to start server and client only with one command",
+  "scripts": {
+    "start": "node Start.js"
+  }
+}

@@ -10,6 +10,11 @@ This is a Demonstration project for the Payment Gateway Stripe, with Node.js and
 npm install
 ```
 
+## Start projects
+```
+npm start
+```
+
 ## Create environment variables
 
 * Create .env file on './server'
