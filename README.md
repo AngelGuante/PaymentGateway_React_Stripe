@@ -4,13 +4,13 @@ This is a Demonstration project for the Payment Gateway Stripe, with Node.js and
 * https://stripe.com/docs/checkout/quickstart
 * https://stripe.com/docs/payments/quickstart
 
-## Install dependencies
+## Install dependencies (Both projects)
 
 ```
-npm install
+npm run install
 ```
 
-## Start projects
+## Start projects (Both projects)
 ```
 npm start
 ```
