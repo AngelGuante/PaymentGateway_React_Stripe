@@ -7,5 +7,5 @@ This is a Demonstration project for the Payment Gateway Stripe, with Node.js and
 ## Install dependencies
 
 ```
-npm update
+npm install
 ```
