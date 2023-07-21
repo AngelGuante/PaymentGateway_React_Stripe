@@ -14,4 +14,6 @@ npm install
 
 * Create .env file on './server'
 * Add next variables:
-	REACT_APP_API_KEY_STRIPE=<Your_stripe_api_key>
+  ```
+  REACT_APP_API_KEY_STRIPE=<Your_stripe_api_key>
+  ```
