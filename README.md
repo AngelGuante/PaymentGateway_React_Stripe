@@ -7,5 +7,11 @@ This is a Demonstration project for the Payment Gateway Stripe, with Node.js and
 ## Install dependencies
 
 ```
-npm update
+npm install
 ```
+
+## Create environment variables
+
+* Create .env file on './server'
+* Add next variables:
+	REACT_APP_API_KEY_STRIPE=<Your_stripe_api_key>
