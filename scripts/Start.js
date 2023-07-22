@@ -6,9 +6,3 @@ const startClient = () => childProcess.exec('npm start --prefix client')
 
 startServer()
 startClient()
-
-
-// () => {
-//     childProcess.exec('npm start --prefix server')}
-// () => {
-//     childProcess.exec('npm start --prefix client')}

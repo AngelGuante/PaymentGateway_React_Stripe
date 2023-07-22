@@ -13,10 +13,10 @@ const ProductDisplay = () => (
                 <h5>$20.00</h5>
             </div>
         </div>
-        <form action="/" method="GET">
+        <form action="http://localhost:3001/create-checkout-session" method="GET">
             <button type="submit">
                 Checkout
-        </button>
+            </button>
         </form>
     </section>
 )

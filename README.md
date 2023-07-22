@@ -15,10 +15,25 @@ npm run install
 * Create .env file on './server'
 * Add next variables:
   ```
+  APP_SERVER_DOMAIN_URL=http://localhost:3001
+  REACT_APP_CLIENT_DOMAIN_URL=http://localhost:3000
   REACT_APP_API_KEY_STRIPE=<Your_stripe_api_key>
+  ```
+* Create .env file on './client'
+* Add next variables:
+  ```
+  APP_SERVER_DOMAIN_URL=http://localhost:3001
   ```
 
 ## Start projects
 ```
 npm start
+```
+
+## Test
+
+```
+Payment succeeds                        4242 4242 4242 4242
+Payment requires authentication         4000 0025 0000 3155
+Payment is declined                     4000 0000 0000 9995
 ```

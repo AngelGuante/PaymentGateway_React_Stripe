@@ -8,24 +8,18 @@ const Stripe_Prebuild_checkout = async () => {
                 price_data: {
                     currency: 'usd',
                     product_data: {
-                        name: 'T-shirt',
+                        name: 'Stubborn Attachments Book',
                     },
-                    unit_amount: 2000,
-                    tax_behavior: 'exclusive',
-                },
-                adjustable_quantity: {
-                    enabled: true,
-                    minimum: 1,
-                    maximum: 10,
+                    unit_amount: 2000
                 },
                 quantity: 1,
             },
         ],
         mode: 'payment',
-        success_url: `http://localhost:3000?success=true`,
-        cancel_url: `http://localhost:3000?canceled=true`,
+        success_url: `${process.env.REACT_APP_CLIENT_DOMAIN_URL}?success=true`,
+        cancel_url: `${process.env.REACT_APP_CLIENT_DOMAIN_URL}?canceled=true`,
     })
-    return session
+    return session.url
 }
 
 module.exports = { Stripe_Prebuild_checkout }
