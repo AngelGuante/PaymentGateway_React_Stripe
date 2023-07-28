@@ -19,12 +19,7 @@ npm run install
   REACT_APP_CLIENT_DOMAIN_URL=http://localhost:3000
   REACT_APP_API_KEY_STRIPE=<Your_stripe_api_key>
   ```
-* Create .env file on './client'
-* Add next variables:
-  ```
-  APP_SERVER_DOMAIN_URL=http://localhost:3001
-  ```
-
+  
 ## Start projects
 ```
 npm start
